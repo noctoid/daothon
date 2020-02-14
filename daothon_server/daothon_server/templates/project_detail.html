@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+
+{% block content %}
+<style>
+    .card-tall {
+        height: 400px;
+    }
+    .card-mid {
+        height: 200px;
+    }
+    .card-short {
+        height: 120px;
+    }
+</style>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col s2">
+            <div class="card card-short">
+                Project SampleDAO
+            </div>
+        </div>
+        <div class="col s5">
+            <div class="card card-short">
+                Status 1
+            </div>
+        </div>
+        <div class="col s5">
+            <div class="card card-short">
+                Status 2
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col s4">
+            <div class="card card-tall">
+                Project Description
+            </div>
+        </div>
+        <div class="col s4">
+            <div class="card card-tall">
+                Project Members
+            </div>
+        </div>
+        <div class="col s4">
+            <div class="card card-tall">
+                Quotes & Comments
+            </div>
+        </div>
+    </div>
+
+
+    <div>
+        <div class="row">
+            <div class="col s12">
+                <div class="card card-tall">
+                    Historical Rating Graph
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
