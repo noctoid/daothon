@@ -15,11 +15,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from tileview.views import all_projects
+from tileview.views import all_projects, all_people
 from project_detail.views import project_detail
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', all_projects),
-    path('/<project_name>/$', project_detail),
+    path('people/', all_people),
+    path('?P<project_name>/$', project_detail),
 ]

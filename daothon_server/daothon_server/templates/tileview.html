@@ -7,10 +7,10 @@
     }
 </style>
 <div class="row">
-    {% for proj in projects %}
+    {% for entry in entries %}
     <div class="col s3">
         <div class="card project-tile">
-            This is a card
+            {{entry}}
         </div>
     </div>
     {% endfor %}

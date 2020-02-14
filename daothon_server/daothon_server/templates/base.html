@@ -17,14 +17,28 @@
   {% include "material_design.html" %}
 
   <container>
-    <nav>
+
+    <nav class="navbar-fixed">
+      <ul>
+        <li><a class="nav-item"><i class="material-icons right">cloud</i>DAOthon</a></li>
+        <!-- <li><a class="nav-item {% if active_tab == "home" %}active{% endif %}" href="../../">Home</a></li> -->
+        <li><a class="nav-item {% if active_tab == "projects" %}active{% endif %} disabled" href="../../">Projects</a></li>
+        <li><a class="nav-item {% if active_tab == "orders" %}active{% endif %}" href="../../people/">People</a></li>
+      </ul>
+      <ul class="right">
+        <li><a class="nav-item {% if active_tab == "profile" %}active{% endif %}" href="../../profile/">{{username}}</a></li>
+      </ul>
+
+    </nav>
+
+    <!-- <nav>
       <div class="nav-wrapper">
         <div class="col s12">
-          <a href="../../" class="breadcrumb">DAOthon</a>
+          <a href="../../" class="breadcrumb">[LOGO] DAOthon</a>
           <a href="../../" class="breadcrumb">Projects</a>
         </div>
       </div>
-    </nav>
+    </nav> -->
 
   </container>
 
