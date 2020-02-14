@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from tileview.views import all_projects
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', all_projects),
 ]
