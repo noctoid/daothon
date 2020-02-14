@@ -9,11 +9,19 @@ Yet Another [ETHDenver](https://www.ethdenver.com/) Hackathon Project
 
 # Inspiration
 
-- ETHGlobal
-- Global Game Jam
-- ITCH
-- Gitcoin
-- DAOStack
+We are a group of Serial Hacker which 参见了很多场 ETHGlobal 的活动，
+我们发现这些 Hackathon 活动中，有这样那样的问题：
+
+【列问题】。
+
+我们发现可以 xxx 解决这些问题。
+
+- [DAOStack](https://alchemy-xdai.daostack.io/daos/)
+- [DevPost](https://ethdenver.devpost.com/submissions)
+- [ETHGlobal](https://ethglobal.co/)
+- [Global Game Jam](https://globalgamejam.org/2020/games)
+- [ITCH](https://itch.io)
+- [Gitcoin](https://gitcoin.co/)
 
 # What it does
 
@@ -25,7 +33,6 @@ Yet Another [ETHDenver](https://www.ethdenver.com/) Hackathon Project
 - Incubation
 
 ## Participant
-
 - Producer
 - Engineer
 - Designer
@@ -33,8 +40,9 @@ Yet Another [ETHDenver](https://www.ethdenver.com/) Hackathon Project
 - Connoisseur
 
 # How we built it
-- Liquidity Algorithm
-- Token Relay
+- [Liquidity Algorithm](https://arxiv.org/abs/1911.03380)
+- [Token Relay](https://github.com/nearprotocol/near-bridge/wiki)
+- [Optimistic Rollup](https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/optimistic_rollups/)
 
 # Challenges we ran into
 
