@@ -8,12 +8,12 @@ Yet Another [ETHDenver](https://www.ethdenver.com/) Hackathon Project
 
 
 # Inspiration
-
-- ETHGlobal
-- Global Game Jam
-- ITCH
-- Gitcoin
-- DAOStack
+- [DAOStack](https://alchemy-xdai.daostack.io/daos/)
+- [DevPost](https://ethdenver.devpost.com/submissions)
+- [ETHGlobal](https://ethglobal.co/)
+- [Global Game Jam](https://globalgamejam.org/2020/games)
+- [ITCH](https://itch.io)
+- [Gitcoin](https://gitcoin.co/)
 
 # What it does
 
@@ -25,7 +25,6 @@ Yet Another [ETHDenver](https://www.ethdenver.com/) Hackathon Project
 - Incubation
 
 ## Participant
-
 - Producer
 - Engineer
 - Designer
@@ -35,6 +34,7 @@ Yet Another [ETHDenver](https://www.ethdenver.com/) Hackathon Project
 # How we built it
 - Liquidity Algorithm
 - Token Relay
+- Optimistic Rollup
 
 # Challenges we ran into
 
