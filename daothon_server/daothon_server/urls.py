@@ -16,12 +16,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from tileview.views import all_projects, all_people
-from project_detail.views import project_detail, sample_project
+from project_detail.views import project_detail, sample_project, sample_people
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', all_projects),
     path('people/', all_people),
+    path('people/sample/', sample_people),
     path('projects/sample/', sample_project),
     path('?P<project_name>/$', project_detail),
 ]

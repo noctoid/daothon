@@ -10,3 +10,9 @@ def sample_project(request):
         request, "project_detail.html",
         {}
     )
+
+def sample_people(request):
+    return render(
+        request, "people_detail.html",
+        {}
+    )
