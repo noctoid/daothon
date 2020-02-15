@@ -55,7 +55,7 @@ To evaluate a participant's contribution based on the abilities, we introduced d
 
 <img src="/Users/oikawaiori/Documents/GitHub/daothon/daothon_server/person_role_icon/Idea Booster.png" alt="Idea Booster" style="zoom:10%;" /> Producer
 
-<img src="/Users/oikawaiori/Documents/GitHub/daothon/daothon_server/person_role_icon/Idea Carrier.png" alt="Idea Carrier" style="zoom:10%;" /> Idea Carrier
+<img src="http://github.com/noctoid/daothon/raw/master/daothon_server/misc/person_role_icon/Idea Carrier.png" alt="Idea Carrier" style="zoom:10%;" /> Idea Carrier
 
 <img src="/Users/oikawaiori/Documents/GitHub/daothon/daothon_server/person_role_icon/FE Programmer.png" alt="FE Programmer" style="zoom:10%;" /> Frontend Engineer
 
