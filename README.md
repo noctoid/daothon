@@ -53,21 +53,21 @@ In design, for the DAOthon, we initialized these simple ideas to secure our goal
 ## New Categorization of Participants
 To evaluate a participant's contribution based on the abilities, we introduced definition of roles as follows. A participant can have multiple roles at one time. The concept of these roles will not only display on the participants' profiles as markers, but also a way of categorizing the contributes in various aspects:
 
-<img src="daothon_server/daothon_server/misc/person_role_icon/Idea Booster.png" alt="Idea Booster" style="zoom:10%;" /> Producer
+<img src="daothon_server/daothon_server/misc/person_role_icon/Idea Booster.png" alt="Idea Booster" width="50"/> Producer
 
-<img src="daothon_server/daothon_server/misc/person_role_icon/Idea Carrier.png" alt="Idea Carrier" style="zoom:10%;" /> Idea Carrier
+<img src="daothon_server/daothon_server/misc/person_role_icon/Idea Carrier.png" alt="Idea Carrier" width="50"/> Idea Carrier
 
-<img src="daothon_server/daothon_server/misc/person_role_icon/FE Programmer.png" alt="FE Programmer" style="zoom:10%;" /> Frontend Engineer
+<img src="daothon_server/daothon_server/misc/person_role_icon/FE Programmer.png" alt="FE Programmer" width="50"/> Frontend Engineer
 
-<img src="daothon_server/daothon_server/misc/person_role_icon/BE Programmer.png" alt="BE Programmer" style="zoom:10%;" /> Backend Engineer
+<img src="daothon_server/daothon_server/misc/person_role_icon/BE Programmer.png" alt="BE Programmer" width="50"/> Backend Engineer
 
-<img src="daothon_server/daothon_server/misc/person_role_icon/Hardware Designer.png" alt="Hardware Designer" style="zoom:10%;" /> Hardware / IoT Designer
+<img src="daothon_server/daothon_server/misc/person_role_icon/Hardware Designer.png" alt="Hardware Designer" width="50"/> Hardware / IoT Designer
 
-<img src="daothon_server/daothon_server/misc/person_role_icon/Tester.png" alt="Tester" style="zoom:10%;" /> Tester
+<img src="daothon_server/daothon_server/misc/person_role_icon/Tester.png" alt="Tester" width="50"/> Tester
 
-<img src="daothon_server/daothon_server/misc/person_role_icon/CyberSecurity Affiliate.png" alt="CyberSecurity Affiliate" style="zoom:10%;" /> Cybersecurity Affiliated
+<img src="daothon_server/daothon_server/misc/person_role_icon/CyberSecurity Affiliate.png" alt="CyberSecurity Affiliate" width="50"/> Cybersecurity Affiliated
 
-<img src="daothon_server/daothon_server/misc/person_role_icon/Reviewer.png" alt="Reviewer" style="zoom:10%;" /> Community Supporter
+<img src="daothon_server/daothon_server/misc/person_role_icon/Reviewer.png" alt="Reviewer" width="50"/> Community Supporter
 
 - Connoisseur
 
