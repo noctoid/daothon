@@ -15,16 +15,9 @@ The reasons are apparent:
 
 - In typical hackathons, hackers work in only one group, for one project per event, the lack of liquidity of ideas and techniques hinders the ideas' full implementation.
 - The community can't follow up with the project's progress or the teams' ideas, which shrank the project's notability in and after each event.
-- As the judges may have no sufficient time to measure the potential value of each project, they may tend to select those most 'interesting' projects. Besides, the bounty is more likely a oTne-time prize than a form of consistent funding.
+- As the judges may have no sufficient time to measure the potential value of each project or investigate the source code, they may tend to select those most 'interesting' projects. Besides, the bounty is more likely a oTne-time prize than a form of consistent funding. All these kind of reasons will lead hackathon project focus more on frontend and surface rather then kernel and algorithm.
 
 That's why we kicked in with DAOthon, a brand-new platform to solve all those problems in the hackathons. By introducing the <jinzhubaba> into account, we can create an idea-oriented, well-supported hackathon platform with highly-motivated participants and robust sustainability.
-
-We are a group of Serial Hacker which 参见了很多场 ETHGlobal 的活动，
-我们发现这些 Hackathon 活动中，有这样那样的问题：
-
-【列问题】。
-
-我们发现可以 xxx 解决这些问题。
 
 - [DAOStack](https://alchemy-xdai.daostack.io/daos/)
 - [DevPost](https://ethdenver.devpost.com/submissions)
