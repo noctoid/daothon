@@ -1,0 +1,31 @@
+{
+  "name": "fanpiao-erc20",
+  "version": "1.0.0",
+  "description": "Matataki FanPiao with ERC20",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "compile": "truffle compile",
+    "migrate": "truffle migrate --network rinkeby",
+    "migrate-reset": "truffle migrate  --reset --network rinkeby",
+    "build": "yarn compile",
+    "test": "truffle test ./test/TimeMachine.js --network rinkeby",
+    "flatten": "truffle-flattener ",
+    "flatten-fanpiao": "truffle-flattener ./contracts/FanPiao.sol | pbcopy",
+    "migrate-local": "truffle migrate --network development",
+    "test-local": "truffle test ./test/ECny.js --network development"
+  },
+  "author": "Frank Wei (https://github.com/frankwei98)",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^2.4.0",
+    "truffle-flattener": "^1.4.2",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3": "^1.2.4"
+  },
+  "devDependencies": {
+    "truffle": "^5.1.2"
+  }
+}
