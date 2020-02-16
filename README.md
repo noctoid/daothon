@@ -114,10 +114,11 @@ We are also looking into new contracts and solutions to iterate the product, - w
 For our team members -
 
 After this 'impossible assembly',
-Minako will proceed her ambition of the optimized tokenization from matataki and IPFS;
-Yoko will try startup on her own, and seek a solution for those Chinese companys' survival through the hard time;
-Angelika will open up her career in Seattle and devote for some cutting-edge technology;
-Shizuku will go back to University of Chinese Academy of Sciences, for the enternal answer to everthing;
-And I, Iori, will go back to Princeton to feed my cat, Dr. Ginger. Perhaps I'm doing optimizations on compliers in Beijing from May, and the work on the mining contract derivative, honeylemon.market will fruit in April.
+
+- Minako will proceed her ambition of the optimized tokenization from matataki and IPFS;
+- Yoko will try startup on her own, and seek a solution for those Chinese companys' survival through the hard time;
+- Angelika will open up her career in Seattle and devote for some cutting-edge technology;
+- Shizuku will go back to University of Chinese Academy of Sciences, for the enternal answer to everthing;
+- And I, Iori, will go back to Princeton to feed my cat, Dr. Ginger. Perhaps I'm doing optimizations on compliers in Beijing from May, and the work on the mining contract derivative, honeylemon.market will fruit in April.
 
 So in all, what's next? I don't know. But it will be the future not only for us.
