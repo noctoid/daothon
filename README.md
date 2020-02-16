@@ -39,6 +39,11 @@ In design, for the DAOthon, we initialized these simple ideas to secure our goal
 
 This required us to bring new organization of the proces, the role of users, and the overall evaluation of the projects.
 
+
+<img src="README_MISC/flow.png" alt="flow" width="1"/>
+
+<img src="README_MISC/flow.png" alt="flow" width="2"/>
+
 ## New Categorization of Phase
 
 Let's begin with phase. We apply the technique into the 5 overlaping stages of a hackathon:
@@ -110,7 +115,9 @@ See? We are performing multiple roles, and don't you think the contribution shou
 
 # Challenges we ran into
 
-Well.. Time?
+We have to write TokenLocker.sol with event TokenLocked(string,amount) and emit it after transferFrom() call. And write TokenStable smart contract for Near. We only make a EthProver smart contract from TokenStable to proof TokenLocked events appeared on Ethereum net. But that’s only one direction.
+
+<img src="README_MISC/relay.png" alt="flow" width="450"/>
 
 # Accomplishments that we're proud of
 
