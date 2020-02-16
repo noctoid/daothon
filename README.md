@@ -94,6 +94,12 @@ The DAO implementation will evaluate each person's contribution, and sum them up
 
 # Challenges we ran into
 
+```
+npm i -g near-shell
+rustup target add wasm32-unknown-unknown
+```
+
+
 # Accomplishments that we're proud of
 
 # What we learned
