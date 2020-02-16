@@ -18,5 +18,4 @@ def get_token_list(request):
     return JsonResponse({"list": token_list})
 
 def get_token_pie_chart_data(request):
-    if request.
     return JsonResponse({})
