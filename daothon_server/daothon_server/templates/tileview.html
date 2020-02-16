@@ -3,16 +3,30 @@
 {% block content %}
 <style>
     .project-tile {
-        height: 120px;
+        height: 200px;
     }
 </style>
+<br/>
 <div class="row">
-    {% for entry in entries %}
+    {% for e in entries %}
     <div class="col s3">
-        <div class="card project-tile">
-            {{entry}}
+        <div class="card horizontal project-tile">
+            <div class="card-image">
+                <img src="https://ssimg.frontenduse.top/{{e.avatar}}">
+            </div>
+            <div class="card-stacked">
+                <div class="card-content">
+                    <h5>{{e.name}}</h5>
+                    <p>{{e.brief}}</p>
+                </div>
+                <div class="card-action">
+                    <a href="projects/detail/?id={{e.id}}">Detail</a>
+                </div>
+            </div>
         </div>
     </div>
+
+
     {% endfor %}
 </div>
 </div>
