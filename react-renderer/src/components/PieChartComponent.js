@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {PieChart, Pie, Legend, Tooltip} from 'recharts';
+import {PieChart, Pie, Legend, Tooltip, Cell} from 'recharts';
 
 const MyPieChart = (props) => {
     const TwoSimplePieChart = () => {
@@ -8,7 +8,11 @@ const MyPieChart = (props) => {
             return (
                 <PieChart width={dataNode.width} height={dataNode.height}>
                     {/* default: 800; 400 */}
-                  <Pie isAnimationActive={dataNode.isAnimationActive} data={dataNode.data} cx={dataNode.cx} cy={dataNode.cy} outerRadius={dataNode.outerRadius} label/>
+                  <Pie isAnimationActive={dataNode.isAnimationActive} data={dataNode.data} cx={dataNode.cx} cy={dataNode.cy} outerRadius={dataNode.outerRadius} label>
+                    {
+                        dataNode.data.map((entry, index) => <Cell fill={dataNode.colors[index % dataNode.colors.length]}/>)
+                    }
+                  </Pie>
                   {/* default: true; data; 200; 200; 80 */}
                   <Tooltip/>
                  </PieChart>

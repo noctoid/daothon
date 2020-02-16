@@ -12,12 +12,13 @@ const default_piechart_config = { //default config
     "height": 400,
     "isAnimationActive": true,
     "data": [
-        { "name": "Noname_0", "value": 31.19, "test": "shit" },
+        { "name": "Noname_0", "value": 31.19, "test": "shit", "fill": "#8848d8"},
         { "name": "Noname_1", "value": 4 }
     ],
     "cx": 200,
     "cy": 200,
     "outerRadius": 80,
+    "colors": ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#975343', '#A3B1D3'],
 }
 
 const default_radarchart_config = {
@@ -102,6 +103,9 @@ const AsyncPieChartFrag = (url, mypiechart) => {
                         if (data) {
                             // console.log(JSON.stringify(data))
                             mypiechart.data = data['token_detail'];
+                            for(var key in mypiechart.data){
+                                mypiechart.data.fill = "#8848d8";
+                            }
 
                             return (
                                 <div>
