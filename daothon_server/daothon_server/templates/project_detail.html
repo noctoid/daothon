@@ -3,30 +3,45 @@
 {% block content %}
 <style>
     .card-tall {
-        height: 400px;
+        height: 500px;
     }
+
     .card-mid {
         height: 200px;
     }
+
     .card-short {
         height: 120px;
     }
 </style>
+<br/>
 <div class="container-fluid">
     <div class="row">
         <div class="col s2">
             <div class="card card-short">
-                Project SampleDAO
+                <div class="card-content">
+                    <div class="col s4">
+                        <img src="https://ssimg.frontenduse.top/{{proj_info.logo}}" height="50px"/>
+                    </div>
+                    <div class="col s8"><h5>{{proj_info.name}}</h5></div>
+                </div>
             </div>
         </div>
         <div class="col s5">
             <div class="card card-short">
-                Status 1
+                <div class="card-content">
+                    <h5>Brief</h5>
+                    {{proj_info.brief}}
+                </div>
             </div>
         </div>
         <div class="col s5">
             <div class="card card-short">
-                Status 2
+                <div class="card-content">
+                    Amount: {{proj_info.amount}} <br/>
+                    Liquidity: {{proj_info.liquidity}} <br/>
+                    Exchange Amount: {{proj_info.exchange_amount}}
+                </div>
             </div>
         </div>
     </div>
@@ -34,12 +49,25 @@
     <div class="row">
         <div class="col s4">
             <div class="card card-tall">
-                Project Description
+                <div class="card-content">
+                    <h5>Description</h5>
+                    {{proj_info.introduction}}
+                </div>
             </div>
         </div>
         <div class="col s4">
             <div class="card card-tall">
-                Project Members
+                <div class="card-content">
+                    <h5>Project Members</h5>
+                    <ul class="collection">
+                        {% for member in members %}
+                        <li class="collection-item">
+                            {{ member.username }}
+                            <img src="https://ssimg.frontenduse.top/{{member.avatar}}" height="25px"/>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
             </div>
         </div>
         <div class="col s4">

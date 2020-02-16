@@ -25,7 +25,7 @@ urlpatterns = [
     path('people/', all_people),
     path('people/sample/', sample_people),
     path('projects/sample/', sample_project),
-    path('?P<project_name>/$', project_detail),
+    path('projects/detail/', project_detail),
     path('token_list/', get_token_list),
     path('show_token/', get_token_pie_chart_data),
 ]
