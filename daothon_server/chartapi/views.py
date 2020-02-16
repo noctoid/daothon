@@ -30,18 +30,18 @@ def get_token_pie_chart_data(request):
             token_detail = raw_data.get("data").get("list")
             token_detail = [
                 {
-                    "username": _.get("username", "null"),
+                    "name": _.get("username", "null"),
                     "nickname": _.get("nickname", "null"),
                     "avatar": _.get("avatar", ""),
-                    "percent": _["amount"] / _["total_supply"]
+                    "value": round(_["amount"] / _["total_supply"] * 100, 2)
                 } for _ in token_detail
             ]
             current_percentage = 0
             number_of_results = 0
             purged_token_detail = []
             for d in token_detail:
-                if d.get("percent") >= 0.01 or number_of_results < 20:
-                    current_percentage += d.get("percent")
+                if d.get("value") >= 1 or number_of_results < 20:
+                    current_percentage += d.get("value")
                     purged_token_detail.append(d)
                     number_of_results += 1
                     # print(d["username"], "->", d["percent"])
