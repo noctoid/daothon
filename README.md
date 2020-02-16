@@ -9,7 +9,7 @@ Yet Another [ETHDenver](https://www.ethdenver.com/) Hackathon Project
 
 # Inspiration
 
-We the people walked through several ETH Global Event found a sad fact: The sustainability of the hackathon projects is low. Those projects are lack of supports from the hackers, the community and the organizers(typically the investor groups in the industry), after each event. Without sustainability, most of the projects become glittering gizmos down to the basement.
+We the people walked through several [ETHGlobal](https://ethglobal.co/) event found a sad fact: The sustainability of the hackathon projects is low. Those projects are lack of supports from the hackers, the community and the organizers(typically the investor groups in the industry), after each event. Without sustainability, most of the projects become glittering gizmos down to the basement.
 
 The reasons are apparent:
 
@@ -21,7 +21,6 @@ That's why we kicked in with DAOthon, a brand-new platform to solve all those pr
 
 - [DAOStack](https://alchemy-xdai.daostack.io/daos/)
 - [DevPost](https://ethdenver.devpost.com/submissions)
-- [ETHGlobal](https://ethglobal.co/)
 - [Global Game Jam](https://globalgamejam.org/2020/games)
 - [ITCH](https://itch.io)
 - [Gitcoin](https://gitcoin.co/)
@@ -94,6 +93,12 @@ The DAO implementation will evaluate each person's contribution, and sum them up
 - [Optimistic Rollup](https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/optimistic_rollups/)
 
 # Challenges we ran into
+
+```
+npm i -g near-shell
+rustup target add wasm32-unknown-unknown
+```
+
 
 # Accomplishments that we're proud of
 
