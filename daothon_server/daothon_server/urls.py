@@ -17,6 +17,7 @@ from django.contrib import admin
 from django.urls import path
 from tileview.views import all_projects, all_people
 from project_detail.views import project_detail, sample_project, sample_people
+from chartapi.views import get_token_list
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -25,4 +26,5 @@ urlpatterns = [
     path('people/sample/', sample_people),
     path('projects/sample/', sample_project),
     path('?P<project_name>/$', project_detail),
+    path('token_list/', get_token_list),
 ]
