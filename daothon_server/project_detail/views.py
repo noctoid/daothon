@@ -41,7 +41,7 @@ def people_detail(request):
         request, "people_detail.html",
         {
             "p": p,
-            "members": people
+            "members": people[:8]
         }
     )
 
