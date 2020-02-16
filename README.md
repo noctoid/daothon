@@ -36,11 +36,28 @@ In design, for the DAOthon, we initialized these simple ideas to secure our goal
 - A Robust Mechanism to Evaluate the Projects and People
 - A Promised Implementation to raise the sustainability to the Projects and the People
 
-## Phase
+This required us to bring new organization of the proces, the role of users, and the overall evaluation of the projects.
+
+## New Categorization of Phase
+
+Let's begin with phase. We apply the technique into the 5 overlaping stages of a hackathon:
+
 - Proposal
+
+  In this stage, the participants can exchange ideas via DAOthon. The Idea Boosters and Carriers can post ideas for the other roles to contribute.
+
 - Matching
+
+  Browsing the ideas, the participants assemble in a functional way, and the liquidity is optimized since the matching process can last for the whole session.
+
 - Voting
+
+  As the DAI is distributed at the first second of an event, the voting process lasts for the whole session. People will vote their interested projects by <> and <>. And people can even short sale the projects, which could make the event more interesting and let people have a brilliant playground to try out their ideas with stablecoins!
+
 - Award
+
+  
+
 - Incubation
 
 ## New Categorization of Participants
@@ -64,7 +81,14 @@ To evaluate a participant's contribution based on the abilities, we introduced d
 
 - Connoisseur
 
+The DAO implementation will evaluate each person's contribution, and sum them up as a person's overall abilities.
+
+## New Categorization of Projects
+
+
+
 # How we built it
+
 - [Liquidity Algorithm](https://arxiv.org/abs/1911.03380)
 - [Token Relay](https://github.com/nearprotocol/near-bridge/wiki)
 - [Optimistic Rollup](https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/optimistic_rollups/)
@@ -75,4 +99,25 @@ To evaluate a participant's contribution based on the abilities, we introduced d
 
 # What we learned
 
+The extend of a decentralized world is related to the extent of freedom for the people inside, or, the liquidity of the common good. Performing the spirit in various regime is the trend of the era, and we are really into this.
+
+Speaking of the technology, we are very proud of introducing the <jinzhubaba> and <jinzhubaba>'s power. The high accessible toolkits and the ideas under the hood are both very precious.
+
+We also would like to thank everyone who gave us ideas and inspirations, and the best part, the harmonous etherum community, which made our seed to grow.
+
 # What's next
+
+For the project itself -
+We'll fullfill the functions and features; but the most important thing is to carry our ideas around - we, as serious hackathon veterans, are eager to communicate our ideas of change to the people in the community, for a better realization of the spirit of a decentralized, high-liquidity world for more and more people.
+We are also looking into new contracts and solutions to iterate the product, - we really want it survive and grow.
+
+For our team members -
+
+After this 'impossible assembly',
+Minako will proceed her ambition of the optimized tokenization from matataki and IPFS;
+Yoko will try startup on her own, and seek a solution for those Chinese companys' survival through the hard time;
+Angelika will open up her career in Seattle and devote for some cutting-edge technology;
+Shizuku will go back to University of Chinese Academy of Sciences, for the enternal answer to everthing;
+And I, Iori, will go back to Princeton to feed my cat, Dr. Ginger. Perhaps I'm doing optimizations on compliers in Beijing from May, and the work on the mining contract derivative, honeylemon.market will fruit in April.
+
+So in all, what's next? I don't know. But it will be the future not only for us.
