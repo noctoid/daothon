@@ -1,3 +1,19 @@
+
+# Access Point URL:
+
+- [localhost:3000](localhost:3000) - A Pie Chart with default data
+- [localhost:3000/pie[?params]](localhost:3000/pie) - A Pie Chart with data fetched according to params (e.g. params="url=http://localhost:8000/show_token/?id=51&width=1000&height=1000")
+- [localhost:3000/query[?params]](localhost:3000/query) - The same with above
+- [localhost:3000/radar](localhost:3000/radar) - A Radar Chart with default data
+- [localhost:3000/line](localhost:3000/line) - A Line Chart with default data
+
+
+------
+
+\[Original Document\]
+
+------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
