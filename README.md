@@ -100,17 +100,21 @@ To achieve our project, a part of our working list is here:
 
 Well, how about bringing a graph:
 
+<img src="README_MISC/ideas.png" alt="Reviewer" width="450"/>
 
+And of course here's the roles we actuall played :
 
-And of course here's the roles we played - see? We are performing multiple roles, and don't you think the contribution should be calculated fairly?
+<img src="README_MISC/flow.png" alt="flow" width="450"/>
 
-
+See? We are performing multiple roles, and don't you think the contribution should be calculated fairly?
 
 # Challenges we ran into
 
 Well.. Time?
 
 # Accomplishments that we're proud of
+
+The Accomplishment itself ^~^
 
 # What we learned
 
