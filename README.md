@@ -42,7 +42,7 @@ This required us to bring new organization of the proces, the role of users, and
 
 <img src="README_MISC/1.png" alt="flow" width="450"/>
 
-<img src="README_MISC/2.png" alt="flow" width="450"/>
+<img src="README_MISC/2.jpg" alt="flow" width="450"/>
 
 ## New Categorization of Phase
 
@@ -117,7 +117,7 @@ See? We are performing multiple roles, and don't you think the contribution shou
 
 We have to write TokenLocker.sol with event TokenLocked(string,amount) and emit it after transferFrom() call. And write TokenStable smart contract for Near. We only make a EthProver smart contract from TokenStable to proof TokenLocked events appeared on Ethereum net. But that’s only one direction.
 
-<img src="README_MISC/relay.png" alt="flow" width="450"/>
+<img src="README_MISC/relay.jpg" alt="flow" width="450"/>
 
 # Accomplishments that we're proud of
 
