@@ -61,10 +61,12 @@
                     <h5>Project Members</h5>
                     <ul class="collection">
                         {% for member in members %}
-                        <li class="collection-item">
-                            {{ member.username }}
-                            <img src="https://ssimg.frontenduse.top/{{member.avatar}}" height="25px"/>
-                        </li>
+                        <a href="../../people/detail/?id={{proj_info.id}}&&uid={{member.uid}}">
+                            <li class="collection-item">
+                                {{ member.username }}
+                                <img src="https://ssimg.frontenduse.top/{{member.avatar}}" height="25px"/>
+                            </li>
+                        </a>
                         {% endfor %}
                     </ul>
                 </div>

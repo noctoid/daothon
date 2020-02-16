@@ -26,6 +26,25 @@ def project_detail(request):
     )
 
 
+def people_detail(request):
+    if request.method == "GET":
+        if "uid" in request.GET and "id" in request.GET:
+            people = requests.get("https://api.smartsignature.io/token/" + str(
+                request.GET["id"]) + "/balances?pagesize=200&sort=amount-desc&page=1",
+                                    headers={"x-access-token": access_token}).json().get("data").get("list")
+        p = None
+        for token in people:
+            # print(token)
+            if token["uid"] == eval(request.GET["uid"]):
+                p = token
+    return render(
+        request, "people_detail.html",
+        {
+            "p": p,
+            "members": people
+        }
+    )
+
 def sample_project(request):
     return render(
         request, "project_detail.html",
