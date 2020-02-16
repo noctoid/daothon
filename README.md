@@ -1,4 +1,6 @@
-# Introduction
+<img src="daothon_server/daothon_server/misc/platform_icon/DAOdelion.png" alt="Idea Booster" width="450"/>
+
+# An Instance for DAOthon: Project Dandelion
 
 Yet Another [ETHDenver](https://www.ethdenver.com/) Hackathon Project
 
@@ -52,13 +54,15 @@ Let's begin with phase. We apply the technique into the 5 overlaping stages of a
 
 - Voting
 
-  As the DAI is distributed at the first second of an event, the voting process lasts for the whole session. People will vote their interested projects by <> and <>. And people can even short sale the projects, which could make the event more interesting and let people have a brilliant playground to try out their ideas with stablecoins!
+  As the DAI is distributed at the first second of an event, the voting process lasts for the whole session. People will vote their interested projects by quadratic voting; And people can even short sale the projects, which could make the event more interesting and let people have a brilliant playground to try out their ideas with stablecoins!
 
 - Award
 
-  
+  By the refined voting process, the selected projects and people would benefit alot: the bounty and the award will be given in a nother way.
 
 - Incubation
+
+  With high notability and support, the projects will have better expectation during incubation, at least they may have better chance to have a community and resources of funding.
 
 ## New Categorization of Participants
 To evaluate a participant's contribution based on the abilities, we introduced definition of roles as follows. A participant can have multiple roles at one time. The concept of these roles will not only display on the participants' profiles as markers, but also a way of categorizing the contributes in various aspects:
@@ -79,21 +83,33 @@ To evaluate a participant's contribution based on the abilities, we introduced d
 
 <img src="daothon_server/daothon_server/misc/person_role_icon/Reviewer.png" alt="Reviewer" width="50"/> Community Supporter
 
-- Connoisseur
+<img src="daothon_server/daothon_server/misc/person_role_icon/Connoisseur.png" alt="Reviewer" width="50"/>Connoisseur
 
 The DAO implementation will evaluate each person's contribution, and sum them up as a person's overall abilities.
 
-## New Categorization of Projects
+## New Evaluation for Projects
 
-
+From the page of projects, you can see the popularity of it, the trend and the contributors. Out of typical voting, you can manipulate the people's expectation in a bunch of new way. - Actually, involving projects into the world of Game Theory is not only fasinating, but also essential, since the project needs to be tested in not only the code.
 
 # How we built it
+
+To achieve our project, a part of our working list is here:
 
 - [Liquidity Algorithm](https://arxiv.org/abs/1911.03380)
 - [Token Relay](https://github.com/nearprotocol/near-bridge/wiki)
 - [Optimistic Rollup](https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/optimistic_rollups/)
 
+Well, how about bringing a graph:
+
+
+
+And of course here's the roles we played - see? We are performing multiple roles, and don't you think the contribution should be calculated fairly?
+
+
+
 # Challenges we ran into
+
+Well.. Time?
 
 # Accomplishments that we're proud of
 
