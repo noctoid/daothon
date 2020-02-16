@@ -3,11 +3,13 @@
 {% block content %}
 <style>
     .card-tall {
-        height: 400px;
+        height: 500px;
     }
+
     .card-mid {
         height: 200px;
     }
+
     .card-short {
         height: 120px;
     }
@@ -16,12 +18,21 @@
     <div class="row">
         <div class="col s7">
             <div class="card card-short">
-                Alice Volfield
+                {{p}}
+                <div class="card-content">
+                    <div class="col s4">
+                        <img src="https://ssimg.frontenduse.top/{{p.avatar}}" height="50px"/>
+                    </div>
+                    <div class="col s4"><h5>{{p.nickname}}</h5></div>
+                    <div class="col s4"><h5>{{p.username}}</h5></div>
+                </div>
             </div>
         </div>
         <div class="col s5">
             <div class="card card-short">
-                3.14 UP (15.9%)
+                <div class="card-content">
+                    <h3>3.14 UP (15.9%)</h3>
+                </div>
             </div>
         </div>
     </div>
@@ -29,12 +40,28 @@
     <div class="row">
         <div class="col s6">
             <div class="card card-tall">
-                Project Description
+                <div class="card-content">
+                    <h5>Skills in Project</h5>
+                    <iframe height="400px" width="600px" src="http://127.0.0.1:3000/">
+                    </iframe>
+                </div>
             </div>
         </div>
         <div class="col s6">
             <div class="card card-tall">
-                Project Members
+                <div class="card-content">
+                    <h5>Project Members</h5>
+                    <ul class="collection">
+                        {% for member in members %}
+                        <a href="../../people/detail/?id={{proj_info.id}}&&uid={{member.uid}}">
+                            <li class="collection-item">
+                                {{ member.username }}
+                                <img src="https://ssimg.frontenduse.top/{{member.avatar}}" height="25px"/>
+                            </li>
+                        </a>
+                        {% endfor %}
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
@@ -51,4 +78,4 @@
             </div>
         </div>
     </div>
-{% endblock %}
+    {% endblock %}
