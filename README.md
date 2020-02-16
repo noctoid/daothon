@@ -40,9 +40,9 @@ In design, for the DAOthon, we initialized these simple ideas to secure our goal
 This required us to bring new organization of the proces, the role of users, and the overall evaluation of the projects.
 
 
-<img src="README_MISC/flow.png" alt="flow" width="1"/>
+<img src="README_MISC/1.png" alt="flow" width="450"/>
 
-<img src="README_MISC/flow.png" alt="flow" width="2"/>
+<img src="README_MISC/2.png" alt="flow" width="450"/>
 
 ## New Categorization of Phase
 
