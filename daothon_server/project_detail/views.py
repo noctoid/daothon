@@ -19,7 +19,7 @@ def project_detail(request):
                 if token["id"] == eval(request.GET["id"]):
                     project = token
 
-            print(project)
+            # print(project)
     return render(
         request, "project_detail.html",
         {"q": raw_data, "members": raw_data[:8], "proj_info": project}
