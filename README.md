@@ -66,23 +66,23 @@ Let's begin with phase. We apply the technique into the 5 overlaping stages of a
 ## New Categorization of Participants
 To evaluate a participant's contribution based on the abilities, we introduced definition of roles as follows. A participant can have multiple roles at one time. The concept of these roles will not only display on the participants' profiles as markers, but also a way of categorizing the contributes in various aspects:
 
-<img src="daothon_server/daothon_server/misc/person_role_icon/Idea Booster.png" alt="Idea Booster" width="50"/> Producer
+<img src="daothon_server/daothon_server/misc/person_role_icon/Idea Booster.png" alt="Idea Booster" width="50"/> Producer: Planner & Organizer
 
-<img src="daothon_server/daothon_server/misc/person_role_icon/Idea Carrier.png" alt="Idea Carrier" width="50"/> Idea Carrier
+<img src="daothon_server/daothon_server/misc/person_role_icon/Idea Carrier.png" alt="Idea Carrier" width="50"/> Idea Carrier: Entrepreneur & Thinker
 
-<img src="daothon_server/daothon_server/misc/person_role_icon/FE Programmer.png" alt="FE Programmer" width="50"/> Frontend Engineer
+<img src="daothon_server/daothon_server/misc/person_role_icon/FE Programmer.png" alt="FE Programmer" width="50"/> Frontend Engineer: Frontend, UI/UX Designer...
 
-<img src="daothon_server/daothon_server/misc/person_role_icon/BE Programmer.png" alt="BE Programmer" width="50"/> Backend Engineer
+<img src="daothon_server/daothon_server/misc/person_role_icon/BE Programmer.png" alt="BE Programmer" width="50"/> Backend Engineer: Algorithm Engineer, Database Engineer...
 
-<img src="daothon_server/daothon_server/misc/person_role_icon/Hardware Designer.png" alt="Hardware Designer" width="50"/> Hardware / IoT Designer
+<img src="daothon_server/daothon_server/misc/person_role_icon/Hardware Designer.png" alt="Hardware Designer" width="50"/> Hardware / IoT Designer: Hardware Engineer & Assembler...
 
-<img src="daothon_server/daothon_server/misc/person_role_icon/Tester.png" alt="Tester" width="50"/> Tester
+<img src="daothon_server/daothon_server/misc/person_role_icon/Tester.png" alt="Tester" width="50"/> Tester: Well... tester ;D
 
-<img src="daothon_server/daothon_server/misc/person_role_icon/CyberSecurity Affiliate.png" alt="CyberSecurity Affiliate" width="50"/> Cybersecurity Affiliated
+<img src="daothon_server/daothon_server/misc/person_role_icon/CyberSecurity Affiliate.png" alt="CyberSecurity Affiliate" width="50"/> Cybersecurity Affiliated: Security Engineer & Tester
 
-<img src="daothon_server/daothon_server/misc/person_role_icon/Reviewer.png" alt="Reviewer" width="50"/> Community Supporter
+<img src="daothon_server/daothon_server/misc/person_role_icon/Reviewer.png" alt="Reviewer" width="50"/> Community Supporter: Active People in the Community
 
-<img src="daothon_server/daothon_server/misc/person_role_icon/Connoisseur.png" alt="Reviewer" width="50"/>Connoisseur
+<img src="daothon_server/daothon_server/misc/person_role_icon/Connoisseur.png" alt="Reviewer" width="50"/>Connoisseur: Active Figures in the Industry & Stacker & Investor
 
 The DAO implementation will evaluate each person's contribution, and sum them up as a person's overall abilities.
 
