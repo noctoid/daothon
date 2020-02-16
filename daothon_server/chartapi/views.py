@@ -18,4 +18,10 @@ def get_token_list(request):
     return JsonResponse({"list": token_list})
 
 def get_token_pie_chart_data(request):
-    return JsonResponse({})
+    if request.method == "GET":
+        if "id" in request.GET:
+            raw_data = requests.get("https://api.smartsignature.io/token/"+str(request.GET["id"])+"/balances?pagesize=200&sort=amount-desc&page=1", headers={"x-access-token": access_token}).json()
+            token_detail = raw_data.get("data").get("list")
+            print(token_detail)
+
+    return JsonResponse({"token_detail": token_detail})
