@@ -47,8 +47,9 @@ def get_token_pie_chart_data(request):
                     # print(d["username"], "->", d["percent"])
                 else:
                     break
-            else_percentage = 1 - current_percentage
+            else_percentage = round(100 - current_percentage, 2)
+            purged_token_detail += [{"name": "else", "nickname": "else", "avatar": "", "value": else_percentage}]
 
     # return JsonResponse({"token_detail": token_detail, "else_percent": else_percentage})
 
-    return JsonResponse({"token_detail": purged_token_detail, "else_percent": else_percentage})
+    return JsonResponse({"token_detail": purged_token_detail})
