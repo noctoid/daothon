@@ -18,55 +18,79 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col s2">
-            <div class="nes-container with-title is-centered is-dark">
+            <div class="nes-container with-title is-centered is-dark card-mid">
                 <p class="title">Title</p>
                 <p>{{proj_info.name}}</p>
                 <img class="nes-avatar" src="https://ssimg.frontenduse.top/{{proj_info.logo}}" />
             </div>
 
-            <div class="card card-short">
+            <!-- <div class="card card-short">
                 <div class="card-content">
                     <div class="col s4">
                         <img src="https://ssimg.frontenduse.top/{{proj_info.logo}}" height="50px"/>
                     </div>
                     <div class="col s8"><h5>{{proj_info.name}}</h5></div>
                 </div>
-            </div>
+            </div> -->
         </div>
         <div class="col s5">
-            <div class="nes-container with-title is-centered is-dark">
+            <div class="nes-container with-title is-centered is-dark card-mid">
                 <p class="title">Brief</p>
                 <p>{{proj_info.brief}}</p>
             </div>
-            <div class="card card-short">
+            <!-- <div class="card card-short">
                 <div class="card-content">
                     <h5>Brief</h5>
                     {{proj_info.brief}}
                 </div>
-            </div>
+            </div> -->
         </div>
         <div class="col s5">
-            <div class="card card-short">
+            <div class="nes-container with-title is-centered is-dark card-mid">
+                <p class="title">Status</p>
+                <p>Amount: {{proj_info.amount}}</p>
+                <p>Liquidity: {{proj_info.liquidity}}</p>
+                <p>Exchange Amount: {{proj_info.exchange_amount}}</p>
+            </div>
+            <!-- <div class="card card-short">
                 <div class="card-content">
                     Amount: {{proj_info.amount}} <br/>
                     Liquidity: {{proj_info.liquidity}} <br/>
                     Exchange Amount: {{proj_info.exchange_amount}}
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 
     <div class="row">
         <div class="col s4">
-            <div class="card card-tall">
+            <div class="nes-container with-title is-centered is-dark card-tall">
+                <p class="title">Description</p>
+                <p>{{proj_info.introduction}}</p>
+            </div>
+            <!-- <div class="card card-tall">
                 <div class="card-content">
                     <h5>Description</h5>
                     {{proj_info.introduction}}
                 </div>
-            </div>
+            </div> -->
         </div>
         <div class="col s4">
-            <div class="card card-tall">
+            <div class="nes-container with-title is-centered is-dark card-tall">
+                <p class="title">Members</p>
+                <div class="lists">
+                    <ul class="nes-list is-circle">
+                        {% for member in members %}
+                        <li>
+                            <img src="https://ssimg.frontenduse.top/{{member.avatar}}" class="nes-avatar"/>
+                            <a href="../../people/detail/?id={{proj_info.id}}&&uid={{member.uid}}">{{member.username}}</a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                    
+                </div>
+            </div>
+            <!-- <div class="card card-tall">
                 <div class="card-content">
                     <h5>Project Members</h5>
                     <ul class="collection">
@@ -80,16 +104,22 @@
                         {% endfor %}
                     </ul>
                 </div>
-            </div>
+            </div> -->
         </div>
         <div class="col s4">
-            <div class="card card-tall">
+            <div class="nes-container with-title is-centered is-dark card-tall">
+                <p class="title">Supporters</p>
+                <iframe height="400px" width="400px" src="http://127.0.0.1:3000/pie?url=http://localhost:8000/show_token/?id={{proj_info.id}}">
+                </iframe>
+            </div>
+        
+            <!-- <div class="card card-tall">
                 <div class="card-content">
                     <h5>Project Supporters</h5>
                     <iframe height="400px" width="400px" src="http://127.0.0.1:3000/pie?url=http://localhost:8000/show_token/?id={{proj_info.id}}">
                     </iframe>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 
@@ -97,7 +127,12 @@
     <div>
         <div class="row">
             <div class="col s12">
-                <div class="card card-tall">
+                <div class="nes-container with-title is-dark card-tall">
+                    <p class="title">Rating Graph</p>
+                    <iframe height="400px" width="1200px" src="http://127.0.0.1:3000/line">
+                    </iframe>
+                </div>
+                <!-- <div class="card card-tall">
                     <div class="card-content">
                         <h5>
                         Historical Rating Graph
@@ -105,7 +140,7 @@
                         <iframe height="400px" width="1200px" src="http://127.0.0.1:3000/line">
                         </iframe>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
