@@ -1,23 +1,18 @@
 {% block content %}
-<nav class="navbar navbar-dark navbar-expand-sm fixed-top">
-    <div class="container">
+<nav>
+    <div class="nav-wrapper">
         <div class="row">
-            <a class="navbar-brand mr-auto" href="#"><i class="nes-icon github is-large"></i></a>
-            <div class="collapse navbar-collapse" id="Navbar">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active"><a class="nav-link nes-text is-success" href="#"><span class="fa fa-home fa-lg"></span>
-                            Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><span
-                                class="fa fa-info fa-lg"></span> About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Projects</a>
-                    </li>
+            <div class="col s8 offset-s2">
+                <a href="#" class="brand-logo"><i class="nes-icon github is-medium"></i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a class="nav-link nes-text is-success" href="#"><span class="fa fa-home fa-lg"></span>
+                                        Home</a></li>
+                    <li><a class="nav-link" href="#"><span
+                                            class="fa fa-info fa-lg"></span> About</a></li>
+                    <li><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Projects</a></li>
                 </ul>
-                <span class="navbar-text">
-                    <a data-toggle="modal" data-target="#loginModal">
-                    <span class="fa fa-sign-in"></span> Login</a>
-                </span>
             </div>
         </div>
     </div>
-</nav>
+  </nav>
 {% endblock %}
