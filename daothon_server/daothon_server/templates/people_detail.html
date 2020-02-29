@@ -14,40 +14,40 @@
         height: 120px;
     }
 </style>
+<br/>
 <div class="container-fluid">
     <div class="row">
         <div class="col s7">
-            <div class="card card-short">
-                <div class="card-content">
-                    <div class="col s4">
-                        <img src="https://ssimg.frontenduse.top/{{p.avatar}}" height="50px"/>
-                    </div>
-                    <div class="col s4"><h5>{{p.nickname}}</h5></div>
-                    <div class="col s4"><h5>{{p.username}}</h5></div>
-                </div>
+            <div class="nes-container with-title is-centered is-dark card-short">
+                <p class="title">People</p>
+                <img class="nes-avatar" src="https://ssimg.frontenduse.top/{{p.avatar}}" />
+                <p>{{p.nickname}}</p>
             </div>
+
         </div>
         <div class="col s5">
-            <div class="card card-short">
-                <div class="card-content">
-                    <h3>3.14 UP (15.9%)</h3>
-                </div>
+            <div class="nes-container with-title is-centered is-dark card-short">
+                <p class="title">Status</p>
+                <p>3.14 UP (15.9%)</p>
             </div>
+
         </div>
     </div>
 
     <div class="row">
         <div class="col s6">
-            <div class="card card-tall">
-                <div class="card-content">
-                    <h5>Skills in Project</h5>
-                    <iframe height="400px" width="600px" src="http://127.0.0.1:3000/radar">
-                    </iframe>
-                </div>
+            <div class="nes-container with-title is-dark card-tall">
+                <p class="title">Skills</p>
+                <p>Skill Graph</p>
             </div>
+
         </div>
         <div class="col s6">
-            <div class="card card-tall">
+            <div class="nes-container with-title is-dark card-tall">
+                <p class="title">Quote</p>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. </p>
+            </div>
+            <!-- <div class="card card-tall">
                 <div class="card-content">
                     <h5>Project Members</h5>
                     <ul class="collection">
@@ -61,7 +61,7 @@
                         {% endfor %}
                     </ul>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 
@@ -69,13 +69,17 @@
     <div>
         <div class="row">
             <div class="col s12">
-                <div class="card card-tall">
+                <div class="nes-container with-title is-dark card-tall">
+                    <p class="title">Rating</p>
+                    <p>Rating 1 2 3 4 5</p>
+                </div>
+                <!-- <div class="card card-tall">
                     <h5>
                         Historical Rating Graph
                         </h5>
                     <iframe height="400px" width="1200px" src="http://127.0.0.1:3000/line">
                     </iframe>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>

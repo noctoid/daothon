@@ -5,28 +5,27 @@
     .project-tile {
         height: 200px;
     }
+    .project-container {
+        max-width: 600px;
+    }
 </style>
 <br/>
 <div class="row">
     {% for e in entries %}
-    <div class="col s3">
-        <div class="card horizontal project-tile z-depth-2">
-            <div class="card-image">
-                <img src="https://ssimg.frontenduse.top/{{e.avatar}}">
-            </div>
-            <div class="card-stacked">
-                <div class="card-content">
-                    <h5>{{e.name}}</h5>
-                    <p>{{e.brief}}</p>
-                </div>
-                <div class="card-action">
-                    <a href="projects/detail/?id={{e.id}}">Detail</a>
-                </div>
-            </div>
+    <div class="col s6 offset-s3">
+        <div class="nes-container is-centered is-dark with-title project-container">
+            <p class="title">{{e.name}}</p>
+            <img class="nes-avatar" src="https://ssimg.frontenduse.top/{{e.avatar}}">
+            <p>{{e.brief}}</p>
+            <a href="projects/detail/?id={{e.id}}">
+                <button class="nes-btn is-success">
+                    {{e.name}}
+                </button>
+            </a>
         </div>
     </div>
 
-
+    <br/><br/>
     {% endfor %}
 </div>
 </div>
