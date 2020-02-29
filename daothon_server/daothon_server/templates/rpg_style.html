@@ -9,18 +9,9 @@
     /*}*/
 
     @font-face {
-    font-family: 'Eurostile';
-    font-style: normal;
-    font-weight: normal;
-    src: url('./fonts/eurostile.woff') format('woff');
-    }
-
-
-    @font-face {
-    font-family: 'EuroStyle Normal';
-    font-style: normal;
-    font-weight: normal;
-    src: url('./fonts/EuroStyle Normal.woff') format('woff');
+        font-family: 'Eurostile';
+        src: local('Eurostile'),
+        url('../static/eurostile.woff') format("truetype");
     }
 
     body {
@@ -28,7 +19,8 @@
     }
 
     html, body, pre, code, kbd, samp {
-        font-family: "Eurostile", "Press Start 2P";
+        /*font-family: "Press Start 2P";*/
+        font-family: "Eurostile";
     }
 
     .height300 {

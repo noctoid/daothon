@@ -79,6 +79,10 @@ TEMPLATES = [
     },
 ]
 
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "daothon_server", "static"),
+]
+
 WSGI_APPLICATION = 'daothon_server.wsgi.application'
 
 

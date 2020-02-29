@@ -12,7 +12,7 @@ package-lock.json
 # production
 /build
 
-# misc
+# icons
 .DS_Store
 .env.local
 .env.development.local

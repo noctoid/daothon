@@ -1,4 +1,4 @@
-<img src="daothon_server/daothon_server/misc/platform_icon/DAOdelion.png" alt="Idea Booster" width="450"/>
+<img src="daothon_server/daothon_server/static/icons/platform_icon/DAOdelion.png" alt="Idea Booster" width="450"/>
 
 # An Instance for DAOthon: Project Dandelion
 
@@ -71,21 +71,21 @@ Let's begin with phase. We apply the technique into the 5 overlaping stages of a
 ## New Categorization of Participants
 To evaluate a participant's contribution based on the abilities, we introduced definition of roles as follows. A participant can have multiple roles at one time. The concept of these roles will not only display on the participants' profiles as markers, but also a way of categorizing the contributes in various aspects:
 
-<img src="daothon_server/daothon_server/misc/person_role_icon/Idea Booster.png" alt="Idea Booster" width="50"/> Producer: Planner & Organizer
+<img src="daothon_server/daothon_server/static/icons/person_role_icon/Idea Booster.png" alt="Idea Booster" width="50"/> Producer: Planner & Organizer
 
-<img src="daothon_server/daothon_server/misc/person_role_icon/Idea Carrier.png" alt="Idea Carrier" width="50"/> Idea Carrier: Entrepreneur & Thinker
+<img src="daothon_server/daothon_server/static/icons/person_role_icon/Idea Carrier.png" alt="Idea Carrier" width="50"/> Idea Carrier: Entrepreneur & Thinker
 
-<img src="daothon_server/daothon_server/misc/person_role_icon/FE Programmer.png" alt="FE Programmer" width="50"/> Frontend Engineer: Frontend, UI/UX Designer...
+<img src="daothon_server/daothon_server/static/icons/person_role_icon/FE Programmer.png" alt="FE Programmer" width="50"/> Frontend Engineer: Frontend, UI/UX Designer...
 
-<img src="daothon_server/daothon_server/misc/person_role_icon/BE Programmer.png" alt="BE Programmer" width="50"/> Backend Engineer: Algorithm Engineer, Database Engineer...
+<img src="daothon_server/daothon_server/static/icons/person_role_icon/BE Programmer.png" alt="BE Programmer" width="50"/> Backend Engineer: Algorithm Engineer, Database Engineer...
 
-<img src="daothon_server/daothon_server/misc/person_role_icon/Hardware Designer.png" alt="Hardware Designer" width="50"/> Hardware / IoT Designer: Hardware Engineer & Assembler...
+<img src="daothon_server/daothon_server/static/icons/person_role_icon/Hardware Designer.png" alt="Hardware Designer" width="50"/> Hardware / IoT Designer: Hardware Engineer & Assembler...
 
-<img src="daothon_server/daothon_server/misc/person_role_icon/Tester.png" alt="Tester" width="50"/> Tester: Well... tester ;D
+<img src="daothon_server/daothon_server/static/icons/person_role_icon/Tester.png" alt="Tester" width="50"/> Tester: Well... tester ;D
 
-<img src="daothon_server/daothon_server/misc/person_role_icon/CyberSecurity Affiliate.png" alt="CyberSecurity Affiliate" width="50"/> Cybersecurity Affiliated: Security Engineer & Tester
+<img src="daothon_server/daothon_server/static/icons/person_role_icon/CyberSecurity Affiliate.png" alt="CyberSecurity Affiliate" width="50"/> Cybersecurity Affiliated: Security Engineer & Tester
 
-<img src="daothon_server/daothon_server/misc/person_role_icon/Reviewer.png" alt="Reviewer" width="50"/> Community Supporter: Active People in the Community
+<img src="daothon_server/daothon_server/static/icons/person_role_icon/Reviewer.png" alt="Reviewer" width="50"/> Community Supporter: Active People in the Community
 
 <img src="daothon_server/daothon_server/misc/person_role_icon/Connoisseur.png" alt="Reviewer" width="50"/>Connoisseur: Active Figures in the Industry & Stacker & Investor
 
