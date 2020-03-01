@@ -16,12 +16,14 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from tileview.views import all_projects, all_people
+from speakers.speakers import all_speakers
 from project_detail.views import project_detail, people_detail, sample_project, sample_people
 from chartapi.views import get_token_list, get_token_pie_chart_data
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', all_projects),
+    path('speakers/', all_speakers),
     path('people/', all_people),
     path('people/detail/', people_detail),
     path('people/sample/', sample_people),
