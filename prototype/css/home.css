@@ -1,0 +1,973 @@
+
+@font-face {
+                          font-family: "Eurostile-Reg";
+                          src: url('../fonts/.25750.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "Eurostile-Med";
+                          src: url('../fonts/.25763.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "Eurostile-Bol";
+                          src: url('../fonts/.25753.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "ArcadeClassic";
+                          src: url('../fonts/ARCADECLASSIC.TTF') format("truetype");
+                        }
+                        
+.home {
+  width               : 100%;
+  min-width           : 1440px;
+  height              : 100vh;
+  min-height          : 2884px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+  opacity             : 1.0;
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.home .background2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2723px;
+  height              : 782px;
+  width               : 1446px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.home .background2 .mask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 782px;
+  width               : 1446px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.home .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 2723px;
+  width               : 1986px;
+  position            : absolute;
+  margin              : 0;
+  left                : -273px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.home .background .rectangle127 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 2723px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 273px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.home .background .bgdaodelionmosaic {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 328px;
+  height              : 792px;
+  width               : 1519px;
+  position            : absolute;
+  margin              : 0;
+  left                : 249px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.home .background .bkmask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 989px;
+  height              : 1117px;
+  width               : 1986px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+}
+.home .footer {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2723px;
+  height              : 161px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.home .footer .rectangle143copy {
+  background-color    : rgba(15, 28, 50, 1.0);
+  top                 : 0px;
+  height              : 161px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.home .footer .bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 28px;
+  height              : 91px;
+  width               : 91px;
+  position            : absolute;
+  margin              : 0;
+  left                : 65px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.home .footer .daojam2020allrig {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 45px;
+  height              : auto;
+  width               : 805px;
+  position            : absolute;
+  margin              : 0;
+  left                : 560px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Eurostile-Reg", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(195, 195, 195, 1.0);
+  text-align          : right;
+  letter-spacing      : 0.57px;
+  line-height         : 24.0px;
+}
+.home .footer .daojam2020allrig .span1 {
+  
+}
+.home .footer .daojam2020allrig .span2 {
+  color               : rgba(74, 144, 226, 1.0);
+}
+.home .awards {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2102px;
+  height              : 621px;
+  width               : 1446px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.home .awards .awardsandreco {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 111px;
+  height              : 398px;
+  width               : 1039px;
+  position            : relative;
+  margin              : 0;
+  left                : 212px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.home .awards .awardsandreco .sponsors {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 538px;
+  position            : absolute;
+  margin              : 0;
+  left                : 239px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Eurostile-Med", Helvetica, Arial, serif;
+  font-size           : 44.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.58px;
+  line-height         : 53.0px;
+}
+.home .awards .awardsandreco .text {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 320px;
+  height              : 78px;
+  width               : 1031px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.home .awards .awardsandreco .text .loremipsum {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : auto;
+  width               : 118px;
+  position            : absolute;
+  margin              : 0;
+  left                : 39px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Eurostile-Bol", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 1.0px;
+  line-height         : 19.0px;
+}
+.home .awards .awardsandreco .text .loremipsumcopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : auto;
+  width               : 118px;
+  position            : absolute;
+  margin              : 0;
+  left                : 599px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Eurostile-Bol", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 1.0px;
+  line-height         : 19.0px;
+}
+.home .awards .awardsandreco .text .loremipsumcopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : auto;
+  width               : 118px;
+  position            : absolute;
+  margin              : 0;
+  left                : 322px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Eurostile-Bol", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 1.0px;
+  line-height         : 19.0px;
+}
+.home .awards .awardsandreco .text .loremipsumcopy4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : auto;
+  width               : 118px;
+  position            : absolute;
+  margin              : 0;
+  left                : 882px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Eurostile-Bol", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 1.0px;
+  line-height         : 19.0px;
+}
+.home .awards .awardsandreco .text .loremipsumdolor {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 34px;
+  height              : auto;
+  width               : 187px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+  font-family         : "Eurostile-Reg", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(242, 242, 242, 1.0);
+  text-align          : center;
+  line-height         : 13.0px;
+}
+.home .awards .awardsandreco .text .loremipsumdolorcopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 34px;
+  height              : auto;
+  width               : 187px;
+  position            : absolute;
+  margin              : 0;
+  left                : 561px;
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+  font-family         : "Eurostile-Reg", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(242, 242, 242, 1.0);
+  text-align          : center;
+  line-height         : 13.0px;
+}
+.home .awards .awardsandreco .text .loremipsumdolorcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 34px;
+  height              : auto;
+  width               : 187px;
+  position            : absolute;
+  margin              : 0;
+  left                : 283px;
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+  font-family         : "Eurostile-Reg", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(242, 242, 242, 1.0);
+  text-align          : center;
+  line-height         : 13.0px;
+}
+.home .awards .awardsandreco .text .loremipsumdolorcopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 34px;
+  height              : auto;
+  width               : 187px;
+  position            : absolute;
+  margin              : 0;
+  left                : 843px;
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+  font-family         : "Eurostile-Reg", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(242, 242, 242, 1.0);
+  text-align          : center;
+  line-height         : 13.0px;
+}
+.home .awards .awardsandreco .group7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 91px;
+  height              : 202px;
+  width               : 202px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.home .awards .awardsandreco .group7 .group71 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 202px;
+  width               : 202px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.home .awards .awardsandreco .group3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 91px;
+  height              : 202px;
+  width               : 202px;
+  position            : absolute;
+  margin              : 0;
+  left                : 278px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.home .awards .awardsandreco .group3 .group31 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 202px;
+  width               : 202px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.home .awards .awardsandreco .group4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 91px;
+  height              : 202px;
+  width               : 202px;
+  position            : absolute;
+  margin              : 0;
+  left                : 559px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.home .awards .awardsandreco .group4 .gerrenlamson1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 202px;
+  width               : 202px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.home .awards .awardsandreco .group4 .gerrenlamson1 .gerrenlamson2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 202px;
+  width               : 202px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.home .awards .awardsandreco .gerrenlamson {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 91px;
+  height              : 202px;
+  width               : 202px;
+  position            : absolute;
+  margin              : 0;
+  left                : 837px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.home .awards .awardsandreco .gerrenlamson .group5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 202px;
+  width               : 202px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.home .awards .awardsandreco .gerrenlamson .group5 .group51 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 202px;
+  width               : 202px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.home .posts {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1059px;
+  height              : 968px;
+  width               : 851px;
+  position            : absolute;
+  margin              : 0;
+  left                : 292px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.home .posts .event1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 66px;
+  height              : 186px;
+  width               : 841px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.home .posts .event2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 278px;
+  height              : 322px;
+  width               : 846px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.home .posts .event3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 627px;
+  height              : 298px;
+  width               : 838px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.home .posts .button {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 948px;
+  height              : 20px;
+  width               : 217px;
+  position            : absolute;
+  margin              : 0;
+  left                : 630px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.home .posts .button .view1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 16px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 208px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.home .posts .button .view1 .stroke187 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.home .posts .button .viewallactivity {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Eurostile-Med", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(49, 190, 248, 1.0);
+  text-align          : center;
+  letter-spacing      : 3.69px;
+  line-height         : 19.0px;
+}
+.home .posts .upcoming {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : auto;
+  width               : 575px;
+  position            : absolute;
+  margin              : 0;
+  left                : 139px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Eurostile-Med", Helvetica, Arial, serif;
+  font-size           : 44.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.58px;
+  line-height         : 53.0px;
+}
+.home .herocontent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 282px;
+  height              : 334px;
+  width               : 917px;
+  position            : absolute;
+  margin              : 0;
+  left                : 262px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.home .herocontent .group9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 334px;
+  width               : 917px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.home .herocontent .group9 .adaojamisahacka {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 104px;
+  height              : auto;
+  width               : 917px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.6;
+  font-family         : "Eurostile-Reg", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 254, 255, 1.0);
+  text-align          : center;
+  line-height         : 29.0px;
+}
+.home .herocontent .group9 .whatu2019sdaojam {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 73px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Eurostile-Med", Helvetica, Arial, serif;
+  font-size           : 96.0px;
+  color               : rgba(255, 254, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : -3.2px;
+  line-height         : 115.0px;
+}
+.home .herocontent .group9 .projects {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 313px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 426px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Eurostile-Reg", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 2.0px;
+  line-height         : 19.0px;
+}
+.home .herocontent .group9 .a59 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 228px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 428px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "AvenirNext-UltraLight", Helvetica, Arial, serif;
+  font-size           : 59.0px;
+  color               : rgba(49, 190, 248, 1.0);
+  text-align          : center;
+  letter-spacing      : -4.72px;
+  line-height         : 81.0px;
+}
+.home .herocontent .group9 .contribution {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 313px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 591px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Eurostile-Reg", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 2.0px;
+  line-height         : 19.0px;
+}
+.home .herocontent .group9 .a60 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 228px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 590px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "AvenirNext-UltraLight", Helvetica, Arial, serif;
+  font-size           : 59.0px;
+  color               : rgba(49, 190, 248, 1.0);
+  text-align          : center;
+  letter-spacing      : -4.72px;
+  line-height         : 81.0px;
+}
+.home .herocontent .group9 .participants {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 313px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 214px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Eurostile-Reg", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 2.0px;
+  line-height         : 19.0px;
+}
+.home .herocontent .group9 .a368 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 228px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 220px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "AvenirNext-UltraLight", Helvetica, Arial, serif;
+  font-size           : 59.0px;
+  color               : rgba(49, 190, 248, 1.0);
+  text-align          : center;
+  letter-spacing      : -4.72px;
+  line-height         : 81.0px;
+}
+.home .header {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 35px;
+  height              : 52px;
+  width               : 1133px;
+  position            : absolute;
+  margin              : 0;
+  left                : 160px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.home .header .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 49px;
+  height              : 3px;
+  width               : 543px;
+  position            : absolute;
+  margin              : 0;
+  left                : 590px;
+  transform           : rotate(0deg);
+  opacity             : 0.2;
+}
+.home .header .line1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 49px;
+  height              : 3px;
+  width               : 135px;
+  position            : absolute;
+  margin              : 0;
+  left                : 609px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.home .header .home1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 658px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Eurostile-Reg", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 3.0px;
+  line-height         : 29.0px;
+}
+.home .header .homemosaic {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 25px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 618px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.home .header .about {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 828px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Eurostile-Reg", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(161, 161, 161, 1.0);
+  text-align          : left;
+  letter-spacing      : 3.0px;
+  line-height         : 29.0px;
+}
+.home .header .infomosaic {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 25px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 807px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.home .header .projects {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 998px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Eurostile-Reg", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(161, 161, 161, 1.0);
+  text-align          : left;
+  letter-spacing      : 3.0px;
+  line-height         : 29.0px;
+}
+.home .header .listmosaic {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 25px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 962px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.home .header .daojam {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "ArcadeClassic", Helvetica, Arial, serif;
+  font-size           : 48.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.7px;
+  line-height         : 49.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
