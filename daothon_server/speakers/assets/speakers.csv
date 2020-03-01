@@ -1,0 +1,21 @@
+id,order,name,title,company,photoUrl,featured
+adrian_manning,1,Adrian Manning,Co-founder,Sigma Prime,https://croink2019.firebaseapp.com/images/people/adrian_manning.jpg,FALSE
+alexander_praetorius,2,Alexander Praetorius,Co-founder,Wizard Amigos & Play Project,https://croink2019.firebaseapp.com/images/people/alexander_praetorius.png,FALSE
+dankrad_feist,2.5,Dankrad Feist,Researcher,Ethereum Foundation,https://croink2019.firebaseapp.com/images/people/dankrad_feist.jpg,FALSE
+danny_ryan,,Danny Ryan,Researcher,Ethereum Foundation,https://croink2019.firebaseapp.com/images/people/placeholder.png,FALSE
+han_verstraete,4,Han Verstraete,CEO,Otonomos.com,https://croink2019.firebaseapp.com/images/people/han.jpg,FALSE
+hank_chiu,4.3,Hank Chiu,Tech Manager of Engineering,HTC EXODUS,https://croink2019.firebaseapp.com/images/people/hank_chiu.jpg,FALSE
+hankuan_yu,4.6,Hankuan Yu,Head of Engineering,HTC EXODUS,https://croink2019.firebaseapp.com/images/people/hankuan_yu.jpg,FALSE
+hsiao-wei_wang,5,Hsiao-Wei Wang,Researcher,Ethereum Foundation,https://croink2019.firebaseapp.com/images/people/hsiao-wei_wang.jpg,FALSE
+hydai,6,Hydai,VP of engineering,Second State,https://croink2019.firebaseapp.com/images/people/hydai.jpg,FALSE
+kung_chen,7,Kung Chen,Professor,National Chengchi University,https://croink2019.firebaseapp.com/images/people/kung_chen.png,FALSE
+larry_salibra,8,Larry Salibra,Core Developer,Blockstack,https://croink2019.firebaseapp.com/images/people/larry.png,FALSE
+liam_horne,9,Liam Horne,Co-founder,L4 Ventures & ETHGlobal,https://croink2019.firebaseapp.com/images/people/liam_horne.png,TRUE
+luis_cuende,10,Luis Cuende,CEO,Aragon,https://croink2019.firebaseapp.com/images/people/luis_cuende.jpg,TRUE
+nina_breznik,11,Nina Breznik,Co-founder,Wizard Amigos & Play Project,https://croink2019.firebaseapp.com/images/people/nina_breznik.jpg,FALSE
+ping_chen,12,Ping Chen,Founder,Pelith,https://croink2019.firebaseapp.com/images/people/ping_chen.jpg,FALSE
+po-chun_kuo,12.5,Po-Chun Kuo,Chief Scientist,Byzantine Lab,https://croink2019.firebaseapp.com/images/people/po-chun_kuo.png,FALSE
+raul_kripalani,13,Raúl Kripalani,libp2p Tech Lead,Protocol Labs,https://croink2019.firebaseapp.com/images/people/raul_kripalani.jpg,TRUE
+tung-wei_kuo,14,Tung-Wei Kuo,Assistant Professor,National Chengchi University,https://croink2019.firebaseapp.com/images/people/tung-wei_kuo.jpg,FALSE
+vitalik_buterin,15,Vitalik Buterin,Chief Scientist,Ethereum Foundation,https://croink2019.firebaseapp.com/images/people/vitalik_buterin.jpg,TRUE
+yuriko_nishijima,16,Yuriko Nishijima,Developer & Researcher,Cryptoeconomics Lab,https://croink2019.firebaseapp.com/images/people/yuriko_nishijima.png,FALSE
