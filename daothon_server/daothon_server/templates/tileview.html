@@ -130,17 +130,6 @@
         }
     }
 
-
-    .sponsors-url {
-        color: #fff;
-        text-decoration: none;
-    }
-    .sponsors-url:hover {
-        color: #fff;
-        text-decoration: underline;
-    }
-    
-
     .sponsors {
         color: #fff;
         background-color: rgba(255,255,255,0.0);
@@ -189,10 +178,10 @@
             <plastic-image class="company-logo" srcset="{{speaker.companyLogoUrl}}" sizing="contain" lazy-load preload fade>
             </plastic-image>
     
-            <a class="description sponsors-url" href={{speaker.photoUrl}} target="_blank">
+            <div class="description">
                 <text-truncate lines="1">
                     <div class="sponsors-avatar">
-                        <img src="https://avatars2.githubusercontent.com/u/24250627?s=460&v=4" alt="avatar">
+                        <img src={{speaker.photoUrl}} alt="avatar">
                     </div>
                 </text-truncate>
                 <text-truncate lines="1">
@@ -201,7 +190,7 @@
                 <text-truncate lines="1">
                     <div class="origin">{{speaker.company}}</div>
                 </text-truncate>
-            </a>
+            </div>
     
         </div>
     
