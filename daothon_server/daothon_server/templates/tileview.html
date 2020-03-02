@@ -155,9 +155,9 @@
 </style>
 
 <div class="sponsors">
-    <h2>Sponsors</h2>
-    <div class="speakers-wrapper">
-        {% for speaker in speakers %}
+    <h2>Judgers</h2>
+    <div class="judgers-wrapper">
+        {% for judger in judgers %}
         <!-- <template is="dom-repeat" items="[[featuredSpeakers]]" as="speaker"> -->
     
         <div class="speaker" on-tap="_openSpeaker" ga-on="click" ga-event-category="speaker" ga-event-action="open details"
@@ -175,28 +175,71 @@
                 </div>
             </div>
     
-            <plastic-image class="company-logo" srcset="{{speaker.companyLogoUrl}}" sizing="contain" lazy-load preload fade>
+            <plastic-image class="company-logo" srcset="{{judger.companyLogoUrl}}" sizing="contain" lazy-load preload fade>
             </plastic-image>
     
             <div class="description">
                 <text-truncate lines="1">
                     <div class="sponsors-avatar">
-                        <img src={{speaker.photoUrl}} alt="avatar">
+                        <img src={{judger.photoUrl}} alt="avatar">
                     </div>
                 </text-truncate>
                 <text-truncate lines="1">
-                    <h3 class="name">{{speaker.name}}</h3>
+                    <h3 class="name">{{judger.name}}</h3>
                 </text-truncate>
                 <text-truncate lines="1">
-                    <div class="origin">{{speaker.company}}</div>
+                    <div class="origin">{{judger.company}}</div>
                 </text-truncate>
             </div>
-    
         </div>
     
         <!-- </template> -->
         {% endfor %}
     </div>
+
+
+    <div class="sponsors">
+        <h2>Sponsors</h2>
+        <div class="speakers-wrapper">
+            {% for speaker in speakers %}
+            <!-- <template is="dom-repeat" items="[[featuredSpeakers]]" as="speaker"> -->
+        
+            <div class="speaker" on-tap="_openSpeaker" ga-on="click" ga-event-category="speaker" ga-event-action="open details"
+                ga-event-label$="[[speaker.name]]">
+                <div relative>
+                    <plastic-image class="photo" srcset="[[speaker.photoUrl]]" sizing="cover" lazy-load preload fade>
+                    </plastic-image>
+                    <div class="badges" layout horizontal>
+                        <template is="dom-repeat" items="[[speaker.badges]]" as="badge">
+                            <a class$="badge [[badge.name]]-b" href$="[[badge.link]]" target="_blank" rel="noopener noreferrer"
+                                title$="[[badge.description]]" layout horizontal center-center>
+                                <iron-icon class="badge-icon" icon="hoverboard:[[badge.name]]"></iron-icon>
+                            </a>
+                        </template>
+                    </div>
+                </div>
+        
+                <plastic-image class="company-logo" srcset="{{speaker.companyLogoUrl}}" sizing="contain" lazy-load preload fade>
+                </plastic-image>
+        
+                <div class="description">
+                    <text-truncate lines="1">
+                        <div class="sponsors-avatar">
+                            <img src={{speaker.photoUrl}} alt="avatar">
+                        </div>
+                    </text-truncate>
+                    <text-truncate lines="1">
+                        <h3 class="name">{{speaker.name}}</h3>
+                    </text-truncate>
+                    <text-truncate lines="1">
+                        <div class="origin">{{speaker.company}}</div>
+                    </text-truncate>
+                </div>
+            </div>
+        
+            <!-- </template> -->
+            {% endfor %}
+        </div>    
 </div>
 
 <!-- <style>
