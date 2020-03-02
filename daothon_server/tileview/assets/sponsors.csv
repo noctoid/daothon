@@ -1,0 +1,6 @@
+id,order,name,title,company,photoUrl,featured
+adrian_manning,1,Adrian Manning,Co-founder,Sigma Prime,https://croink2019.firebaseapp.com/images/people/adrian_manning.jpg,FALSE
+alexander_praetorius,2,Alexander Praetorius,Co-founder,Wizard Amigos & Play Project,https://croink2019.firebaseapp.com/images/people/alexander_praetorius.png,FALSE
+dankrad_feist,2.5,Dankrad Feist,Researcher,Ethereum Foundation,https://croink2019.firebaseapp.com/images/people/dankrad_feist.jpg,FALSE
+danny_ryan,,Danny Ryan,Researcher,Ethereum Foundation,https://croink2019.firebaseapp.com/images/people/placeholder.png,FALSE
+han_verstraete,4,Han Verstraete,CEO,Otonomos.com,https://croink2019.firebaseapp.com/images/people/han.jpg,FALSE

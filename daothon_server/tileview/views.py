@@ -11,7 +11,7 @@ collection = []
 
 module_path = os.path.dirname(__file__) 
 
-with open(module_path + "/assets/speakers.csv") as f:
+with open(module_path + "/assets/sponsors.csv") as f:
     reader = csv.reader(f)
     header = []
     for row in reader:
