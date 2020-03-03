@@ -164,15 +164,15 @@
         <!-- <template is="dom-repeat" items="[[featuredSpeakers]]" as="speaker"> -->
     
         <div class="speaker" on-tap="_openSpeaker" ga-on="click" ga-event-category="speaker" ga-event-action="open details"
-            ga-event-label$="[[speaker.name]]">
+            ga-event-label$="{{speaker.name}}">
             <div relative>
-                <plastic-image class="photo" srcset="[[speaker.photoUrl]]" sizing="cover" lazy-load preload fade>
+                <plastic-image class="photo" srcset="{{speaker.photoUrl}}" sizing="cover" lazy-load preload fade>
                 </plastic-image>
                 <div class="badges" layout horizontal>
-                    <template is="dom-repeat" items="[[speaker.badges]]" as="badge">
-                        <a class$="badge [[badge.name]]-b" href$="[[badge.link]]" target="_blank" rel="noopener noreferrer"
-                            title$="[[badge.description]]" layout horizontal center-center>
-                            <iron-icon class="badge-icon" icon="hoverboard:[[badge.name]]"></iron-icon>
+                    <template is="dom-repeat" items="{{speaker.badges}}" as="badge">
+                        <a class$="badge {{badge.name}}-b" href$="{{badge.link}}" target="_blank" rel="noopener noreferrer"
+                            title$="{{badge.description}}" layout horizontal center-center>
+                            <iron-icon class="badge-icon" icon="hoverboard:{{badge.name}}"></iron-icon>
                         </a>
                     </template>
                 </div>
